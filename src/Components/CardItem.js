@@ -33,17 +33,17 @@ function CardItem({img_link,pp_foto, name, title, descr,  time, views, like }) {
             <div className='relative'>
                 <div className='group-hover:-translate-y-20 h-32 transition-all duration-500  w-full pt-4 '>
                     
-                    <div className='flex items-center px-5 pb-2 group-hover:bg-white pt-5'>
+                    <div className='flex items-center px-5 pb-2 bg-white pt-5'>
                         <img src={pp_foto} alt="ppImg" className='w-6 h-6 rounded-full mr-2' />
                         <h5 className='text-black text-sm'>{name}</h5>
                     </div>
                                     
-                    <h2 className='text-lg font-bold px-5 group-hover:bg-white'>{title}</h2>
+                    <h2 className='text-lg font-bold px-5 delay-100 bg-white'>{title}</h2>
     
                 </div>
 
                 
-                <p className='opacity-0 top-1/3 absolute text-sm transition-all duration-300 delay-75 group-hover:line-clamp-3 group-hover:opacity-100 px-5 group-hover:bg-white'>{descr}
+                <p className='opacity-0 top-1/3 absolute text-sm transition-all duration-500 group-hover:line-clamp-3 group-hover:opacity-100 px-5'>{descr}
                 </p>
     
 
